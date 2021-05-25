@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MathMate - Eenvoudig rekenen</title>
+    <script src="eenvoudig.js"></script>
 </head>
 <body>
 
@@ -22,7 +23,7 @@
 
         <section id="tafels">
             <h1>Tafels</h1>
-            <form>
+            <form onsubmit="return genereerTafel();">
                 <p>
                     <label>Vermenigvuldigtal:</label>
                     <input id="tafel-vermenigvuldigtal" value="5">
